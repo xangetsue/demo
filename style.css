@@ -47,6 +47,54 @@ section h5{
     background-image: url("images/nature6.jpg");
 }
  
+
+.grid-container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(5, [col] auto);
+    grid-template-rows: repeat(4, [row] auto);
+}
+
+.grid-container div{
+    background-color: palevioletred;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.ga{
+    grid-column: col 1 / span 3;
+    grid-row: row 1;
+}
+.gb{
+    grid-column: col 4 / span 2;
+    grid-row: row 1;
+}
+.gc{
+    grid-column: col 1 / span 2;
+    grid-row: row 2;
+}
+.gd{
+    grid-column: col 3 / span 2;
+    grid-row: row 2;
+}
+.ge{
+    grid-column: col 1 / span 2;
+    grid-row: row 3;
+}
+.gf{
+    grid-column: col 3 / span 3;
+    grid-row: row 3;
+}
+.gg{
+    grid-column: col 2 / span 2;
+    grid-row: row 4;
+}
+.gh{
+    grid-column: col 4 / span 2;
+    grid-row: row 4;
+}
+
+
 /* @keyframes rotation{
     0%{transform: rotate(0deg);}
     25%{transform: rotate(90deg);}
