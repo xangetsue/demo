@@ -1,2 +1,4 @@
-let name = prompt("what is your name or nickname? ");
-alert('welcome ' + name);
+let guestName = prompt("what is your name or nickname? ");
+alert('welcome ' + guestName);
+
+document.getElementById('demo').innerHTML = "welcome here " + guestName;
