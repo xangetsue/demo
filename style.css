@@ -1,5 +1,6 @@
 body{
     background-color:cornsilk;
+    scroll-behavior: smooth;
 }
 
 section{
@@ -47,6 +48,12 @@ section h5{
     background-image: url("images/nature6.jpg");
 }
  
+span{
+    position: relative;
+    bottom:40px;
+    right: 40px;
+    font-weight: bolder;
+}
 
 .grid-container{
     display: grid;
